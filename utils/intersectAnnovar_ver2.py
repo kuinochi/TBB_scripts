@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 import re
 import csv
-import itertools
 import argparse
 
 def get_args():
