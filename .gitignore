@@ -1,3 +1,4 @@
 .vscode/
 *.tar.gz
 old_*/
+compare_tools/
