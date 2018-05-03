@@ -1,0 +1,286 @@
+ID  Inheritance Chr Pos Ref/Alt Gene    Annotation  Note
+CCAM16C denovo  2   220405099   T/A CHPF    missense    
+CCAM18C denovo  7   128034519   G/A IMPDH1  missense    
+CCAM19C denovo  1   116275536   T/C CASQ2   missense    
+CCAM2C  denovo  2   32983392    A/G TTC27   missense    
+CCAM22C denovo  18  43479452    G/A EPG5    missense    
+CCAM23C denovo  11  93400887    C/T CEP295  stopgain    
+CCAM24C denovo  9   130566571   T/G FPGS    missense    
+CCAM25C denovo  14  103986853   C/T CKB missense    
+CCAM28C denovo  2   230657769   A/C TRIP12  missense    
+CCAM6C  denovo  13  111371626   G/A ING1    missense    
+CCAM19C denovo  1   145457598   C/T POLR3GL missense    
+VL11C   denovo  19  17397501    T/G/*   ANKLE1  missense    found in patient (not in father, maternal DNA not available)
+VL11C   denovo  7   47342701    T/C TNS3    missense    found in patient (not in father, maternal DNA not available)
+VL6C    denovo  13  28542748    G/T CDX2    stopgain    
+VL30C   denovo  12  49219217    G/A CACNB3  missense    
+VL6C    denovo  13  28542748    G/T CDX2    stopgain    
+VL21C   denovo  13  28537484    C/T CDX2    missense    
+IA704C  denovo  7   44099655    G/C DBNL    missense    
+VL20C   denovo  12  57965989    A/G KIF5A   missense    
+VL26C   denovo  15  73580724    C/T NEO1    missense    
+IA691C  denovo  19  18277996    G/T PIK3R2  missense    
+VL11C   denovo  17  78319161    G/T RNF213  missense    
+IA691C  denovo  5   475678  G/A SLC9A3  missense    
+VL19C   denovo  12  6442293 C/T TNFRSF1A    missense    
+VL11C   denovo  7   47342701    T/C TNS3    missense    
+CCAM24C denovo  15  44905652    G/A SPG11   missense    
+CCAM11C denovo  6   25600703    C/T LRRC16A missense    
+CCAM13C denovo  11  12234887    G/T MICAL2  missense    
+CCAM13C denovo  11  65300260    G/A SCYL1   missense    
+CCAM16A denovo  2   220405099   T/A CHPF    missense    T
+CCAM18A denovo  7   128034519   G/A IMPDH1  missense    G
+CCAM19A denovo  1   116275536   T/C CASQ2   missense    T
+CCAM2A  denovo  2   32983392    A/G TTC27   missense    A
+CCAM22A denovo  18  43479452    G/A EPG5    missense    G
+CCAM23A denovo  11  93400887    C/T CEP295  stopgain    C
+CCAM24A denovo  9   130566571   T/G FPGS    missense    T
+CCAM25A denovo  14  103986853   C/T CKB missense    C
+CCAM28A denovo  2   230657769   A/C TRIP12  missense    A
+CCAM6A  denovo  13  111371626   G/A ING1    missense    G
+CCAM19A denovo  1   145457598   C/T POLR3GL missense    C
+VL6A    denovo  13  28542748    G/T CDX2    stopgain    G
+VL30A   denovo  12  49219217    G/A CACNB3  missense    G
+VL6A    denovo  13  28542748    G/T CDX2    stopgain    G
+VL21A   denovo  13  28537484    C/T CDX2    missense    C
+IA704A  denovo  7   44099655    G/C DBNL    missense    G
+VL20A   denovo  12  57965989    A/G KIF5A   missense    A
+VL26A   denovo  15  73580724    C/T NEO1    missense    C
+IA691A  denovo  19  18277996    G/T PIK3R2  missense    G
+VL11A   denovo  17  78319161    G/T RNF213  missense    G
+IA691A  denovo  5   475678  G/A SLC9A3  missense    G
+VL19A   denovo  12  6442293 C/T TNFRSF1A    missense    C
+VL11A   denovo  7   47342701    T/C TNS3    missense    T
+CCAM24A denovo  15  44905652    G/A SPG11   missense    G
+CCAM11A denovo  6   25600703    C/T LRRC16A missense    C
+CCAM13A denovo  11  12234887    G/T MICAL2  missense    G
+CCAM13A denovo  11  65300260    G/A SCYL1   missense    G
+CCAM16B denovo  2   220405099   T/A CHPF    missense    T
+CCAM18B denovo  7   128034519   G/A IMPDH1  missense    G
+CCAM19B denovo  1   116275536   T/C CASQ2   missense    T
+CCAM2B  denovo  2   32983392    A/G TTC27   missense    A
+CCAM22B denovo  18  43479452    G/A EPG5    missense    G
+CCAM23B denovo  11  93400887    C/T CEP295  stopgain    C
+CCAM24B denovo  9   130566571   T/G FPGS    missense    T
+CCAM25B denovo  14  103986853   C/T CKB missense    C
+CCAM28B denovo  2   230657769   A/C TRIP12  missense    A
+CCAM6B  denovo  13  111371626   G/A ING1    missense    G
+CCAM19B denovo  1   145457598   C/T POLR3GL missense    C
+VL6B    denovo  13  28542748    G/T CDX2    stopgain    G
+VL30B   denovo  12  49219217    G/A CACNB3  missense    G
+VL6B    denovo  13  28542748    G/T CDX2    stopgain    G
+VL21B   denovo  13  28537484    C/T CDX2    missense    C
+IA704B  denovo  7   44099655    G/C DBNL    missense    G
+VL20B   denovo  12  57965989    A/G KIF5A   missense    A
+VL26B   denovo  15  73580724    C/T NEO1    missense    C
+IA691B  denovo  19  18277996    G/T PIK3R2  missense    G
+VL11B   denovo  17  78319161    G/T RNF213  missense    G
+IA691B  denovo  5   475678  G/A SLC9A3  missense    G
+VL19B   denovo  12  6442293 C/T TNFRSF1A    missense    C
+VL11B   denovo  7   47342701    T/C TNS3    missense    T
+CCAM24B denovo  15  44905652    G/A SPG11   missense    G
+CCAM11B denovo  6   25600703    C/T LRRC16A missense    C
+CCAM13B denovo  11  12234887    G/T MICAL2  missense    G
+CCAM13B denovo  11  65300260    G/A SCYL1   missense    G
+CCAM28C rece    6   117237391   C/A RFX6    missense    
+CCAM15C rece    X   66766472    G/A AR  missense    
+CCAM18C rece    X   71830999    C/T PHKA1   missense    patient: AA; father: GG; mother: GA
+CCAM23C rece    10  81471631    T/C NUTM2B  missense    
+CCAM6C  rece    19  49519387    C/T LHB missense    patient: AA; father and mother: GA
+CCAM6C  rece    X   32305700    G/C DMD missense    patient: GG; father: CC; mother: GC
+CCAM6C  rece    X   44929203    A/C KDM6A   missense    
+CCAM6C  rece    X   129208048   C/T ELF4    missense    patient: AA; father: GG; mother: GA
+IA683C  rece    9   2718169 G/A KCNV2   missense    
+VL11C   rece    19  15166256    G/A CASP14  missense    
+VL11C   rece    4   83839764    A/G THAP9   missense    
+VL6C    rece    2   237247013   G/A IQCA1   missense    
+VL19C   rece    6   66005794    C/A EYS missense    
+VL11C   rece    17  39642738    G/A KRT36   missense    
+IA682C  rece    21  33706638    A/G URB1    missense    
+VL11C   rece    19  58718332    C/T ZNF274  missense    
+VL33C   rece    1   35250943    G/A GJB3    missense    
+VL33C   rece    10  55570398    C/T PCDH15  missense    
+VL27C   rece    16  71509962    C/T ZNF19   missense    
+VL26C   rece    3   97596840    C/T CRYBG3  missense    
+VL19C   rece    7   100064587   C/T TSC22D4 missense    
+CCAM22C rece    3   21447905    C/+CT/+CG   VENTXP7 frameshit   C/+CG (father is hetero; mother also recessive/homo)
+CCAM2C  rece    19  37879852    C/+TGTG ZNF527  frameshit   patient (homo); parents (hetero)
+CCAM28A rece    6   117237391   C/A RFX6    missense    
+CCAM15A rece    X   66766472    G/A AR  missense    
+CCAM18A rece    X   71830999    C/T PHKA1   missense    patient: AA; father: GG; mother: GA
+CCAM23A rece    10  81471631    T/C NUTM2B  missense    
+CCAM6A  rece    19  49519387    C/T LHB missense    patient: AA; father and mother: GA
+CCAM6A  rece    X   32305700    G/C DMD missense    patient: GG; father: CC; mother: GC
+CCAM6A  rece    X   44929203    A/C KDM6A   missense    patient: CC; father and mother: AA
+CCAM6A  rece    X   129208048   C/T ELF4    missense    patient: AA; father: GG; mother: GA
+IA683A  rece    9   2718169 G/A KCNV2   missense    
+VL11A   rece    19  15166256    G/A CASP14  missense    
+VL11A   rece    4   83839764    A/G THAP9   missense    
+VL6A    rece    2   237247013   G/A IQCA1   missense    
+VL19A   rece    6   66005794    C/A EYS missense    
+VL11A   rece    17  39642738    G/A KRT36   missense    
+IA682A  rece    21  33706638    A/G URB1    missense    
+VL11A   rece    19  58718332    C/T ZNF274  missense    
+VL33A   rece    1   35250943    G/A GJB3    missense    
+VL33A   rece    10  55570398    C/T PCDH15  missense    
+VL27A   rece    16  71509962    C/T ZNF19   missense    
+VL26A   rece    3   97596840    C/T CRYBG3  missense    
+VL19A   rece    7   100064587   C/T TSC22D4 missense    
+CCAM22A rece    3   21447905    C/+CT/+CG   VENTXP7 frameshit   C/+CG (father is hetero; mother also recessive/homo)
+CCAM2A  rece    19  37879852    C/+TGTG ZNF527  frameshit   patient (homo); parents (hetero)
+CCAM28B rece    6   117237391   C/A RFX6    missense    
+CCAM15B rece    X   66766472    G/A AR  missense    patient: AA; father: GG; mother: GA
+CCAM18B rece    X   71830999    C/T PHKA1   missense    patient: AA; father: GG; mother: GA
+CCAM23B rece    10  81471631    T/C NUTM2B  missense    
+CCAM6B  rece    19  49519387    C/T LHB missense    patient: AA; father and mother: GA
+CCAM6B  rece    X   32305700    G/C DMD missense    patient: GG; father: CC; mother: GC
+CCAM6B  rece    X   44929203    A/C KDM6A   missense    patient: CC; father and mother: AA
+CCAM6B  rece    X   129208048   C/T ELF4    missense    patient: AA; father: GG; mother: GA
+IA683B  rece    9   2718169 G/A KCNV2   missense    
+VL6B    rece    2   237247013   G/A IQCA1   missense    
+VL19B   rece    6   66005794    C/A EYS missense    
+IA682B  rece    21  33706638    A/G URB1    missense    
+VL33B   rece    1   35250943    G/A GJB3    missense    
+VL33B   rece    10  55570398    C/T PCDH15  missense    
+VL27B   rece    16  71509962    C/T ZNF19   missense    
+VL26B   rece    3   97596840    C/T CRYBG3  missense    
+VL19B   rece    7   100064587   C/T TSC22D4 missense    
+CCAM22B rece    3   21447905    C/+CT/+CG   VENTXP7 frameshit   C/+CG (father is hetero; mother also recessive/homo)
+CCAM22B rece    19  37879852    C/+TGTG ZNF527  frameshit   patient (homo); parents (hetero)
+IA691C  CH  4   139104414   T/C SLC7A11 missense    found in patient (inherited from mother)
+IA691C  CH  4   139091849   T/C SLC7A11 3UTR    found in patient (inherited from father)
+VL11C   CH  4   139104414   T/C SLC7A11 missense    found in patient (inherited from father)
+VL11C   CH  4   139092868   T/C SLC7A11 3UTR    found in patient (not in father, maternal DNA not available)
+IA689C  CH  1   236958847   G/T MTR missense    found in patient (inherited from mother)
+IA689C  CH  1   236979801   G/T MTR stopgain    found in patient (inherited from father)
+VL10C   CH  1   1886888 C/T NoSymbol36  missense    found in patient (inherited from mother)
+VL10C   CH  1   1886630 G/A NoSymbol36  stopgain    found in patient (inherited from father)
+VL17C   CH  6   52141106    C/T MCM3    missense    found in patient (inherited from father)
+VL17C   CH  6   52146902    G/A MCM3    missense    found in patient (inherited from mother)
+VL6C    CH  6   66005794    C/A EYS missense    confirmed, paternal inherited
+VL6C    CH  6   64940497    A/G EYS missense    confirmed, maternal inherited
+IA689C  CH  21  33691710    G/A URB1    missense    confirmed, maternal inherited
+IA689C  CH  21  33719355    C/T URB1    missense    confirmed, paternal inherited
+VL6C    CH  19  58718332    C/T ZNF274  missense    confirmed, maternal inherited
+VL6C    CH  19  58723827    C/G ZNF274  missense    confirmed, paternal inherited
+VL34C   CH  1   152277286   C/T FLG missense    confirmed, maternal inherited
+VL34C   CH  1   152284783   G/C FLG missense    confirmed, paternal inherited
+IA682C  CH  1   152277553   C/T FLG missense    confirmed, maternal inherited
+IA682C  CH  1   152284783   G/C FLG missense    confirmed, paternal inherited
+VL21C   CH  4   187557837   C/T FAT1    missense    confirmed, maternal inherited
+VL21C   CH  4   187629877   T/C FAT1    missense    confirmed, paternal inherited
+IA691C  CH  4   187517999   T/C FAT1    missense    confirmed, paternal inherited
+IA691C  CH  4   187521337   T/C FAT1    missense    confirmed, maternal inherited
+CCAM16C CH  12  132688152   G/A GALNT9  stopgain    confirmed (mother also heterozygous)
+CCAM18C CH  13  99404852    T/G SLC15A1 startloss   confirmed
+IA691B  CH  4   139104414   T/C SLC7A11 missense    found in patient (inherited from mother)
+IA691A  CH  4   139091849   T/C SLC7A11 3UTR    found in patient (inherited from father)
+VL11A   CH  4   139104414   T/C SLC7A11 missense    found in patient (inherited from father)
+IA689B  CH  1   236958847   G/T MTR missense    found in patient (inherited from mother)
+IA689A  CH  1   236979801   G/T MTR stopgain    found in patient (inherited from father)
+VL10B   CH  1   1886888 C/T NoSymbol36  missense    found in patient (inherited from mother)
+VL10A   CH  1   1886630 G/A NoSymbol36  stopgain    found in patient (inherited from father)
+VL17A   CH  6   52141106    C/T MCM3    missense    found in patient (inherited from father)
+VL17B   CH  6   52146902    G/A MCM3    missense    found in patient (inherited from mother)
+VL6A    CH  6   66005794    C/A EYS missense    confirmed, paternal inherited
+VL6B    CH  6   64940497    A/G EYS missense    confirmed, maternal inherited
+IA689B  CH  21  33691710    G/A URB1    missense    confirmed, maternal inherited
+IA689A  CH  21  33719355    C/T URB1    missense    confirmed, paternal inherited
+VL6B    CH  19  58718332    C/T ZNF274  missense    confirmed, maternal inherited
+VL6A    CH  19  58723827    C/G ZNF274  missense    confirmed, paternal inherited
+VL34B   CH  1   152277286   C/T FLG missense    confirmed, maternal inherited
+VL34A   CH  1   152284783   G/C FLG missense    confirmed, paternal inherited
+IA682B  CH  1   152277553   C/T FLG missense    confirmed, maternal inherited
+IA682A  CH  1   152284783   G/C FLG missense    confirmed, paternal inherited
+VL21B   CH  4   187557837   C/T FAT1    missense    confirmed, maternal inherited
+VL21A   CH  4   187629877   T/C FAT1    missense    confirmed, paternal inherited
+IA691A  CH  4   187517999   T/C FAT1    missense    confirmed, paternal inherited
+IA691B  CH  4   187521337   T/C FAT1    missense    confirmed, maternal inherited
+CCAM16B CH  12  132688152   G/A GALNT9  stopgain    confirmed (mother also heterozygous)
+CCAM11C PPI 8   133885463   A/G TG  missense    patient and father: AG; mother: AA
+CCAM11C PPI 2   170177382   G/A LRP2    missense    patient and mother: CT; father: CC
+CCAM13C PPI 17  37070726    C/T LASP1   missense    patient and father: CT; mother: CC
+CCAM13C PPI 8   48691325    C/A PRKDC   missense    patient and father: GT; mother: GG
+CCAM13C PPI 10  54040670    C/T PRKG1   missense    patient and mother: CT; father: CC
+CCAM14C PPI 17  37070726    C/T LASP1   missense    patient and mother: CT; father: CC
+CCAM14C PPI 8   134128945   A/T TG  missense    patient and father: AT; mother: AA
+CCAM14C PPI 10  52834358    C/G PRKG1   missense    patient and father: CG; mother: CC
+CCAM14C PPI 2   170038687   G/C LRP2    missense    patient and mother: CG; father: CC
+CCAM15C PPI 3   37053562    C/T MLH1    missense    patient and mother: CT; father: CC
+CCAM18C PPI 2   21225485    C/G APOB    missense    patient and mother: GC; father: GG
+CCAM18C PPI 2   170147367   C/T LRP2    missense    patient and father: GA; mother: GG
+CCAM20C PPI 2   21225485    C/G APOB    missense    patient and father: GC; mother: GG
+CCAM20C PPI 2   170177382   G/A LRP2    missense    patient and mother: CT; father: CC
+CCAM22C PPI 3   37089020    C/T MLH1    missense    patient and father: CT; mother: CC
+CCAM25C PPI 8   133984068   C/T TG  missense    patient and mother: CT; father: CC
+CCAM25C PPI 2   170038100   G/A LRP2    missense    patient and father: CT; mother: CC
+CCAM9C  PPI 8   48691637    G/A PRKDC   missense    patient and father: CT; mother: CC
+VL6C    PPI 2   170063095   C/T LRP2    missense    confirmed, paternal inherited
+VL10C   PPI 2   170059272   C/T LRP2    missense    confirmed, maternal inherited
+VL6C    PPI X   101911030   G/A GPRASP1 missense    confirmed, maternal inherited
+VL10C   PPI X   101909897   A/C GPRASP1 missense    confirmed, paternal: CC; maternal AA
+VL6C    PPI 1   183187527   A/T LAMC2   missense    confirmed, paternal inherited
+IA689C  PPI 1   183187527   A/T LAMC2   missense    confirmed, paternal inherited
+VL6C    PPI 1   236228288   C/A NID1    missense    confirmed, paternal: CC; maternal AA
+IA689C  PPI 1   236228288   C/A NID1    missense    confirmed, paternal: CC; maternal AA
+CCAM11A PPI 8   133885463   A/G TG  missense    patient and father: AG; mother: AA
+CCAM11B PPI 2   170177382   G/A LRP2    missense    patient and mother: CT; father: CC
+CCAM13A PPI 17  37070726    C/T LASP1   missense    patient and father: CT; mother: CC
+CCAM13A PPI 8   48691325    C/A PRKDC   missense    patient and father: GT; mother: GG
+CCAM13B PPI 10  54040670    C/T PRKG1   missense    patient and mother: CT; father: CC
+CCAM14B PPI 17  37070726    C/T LASP1   missense    patient and mother: CT; father: CC
+CCAM14A PPI 8   134128945   A/T TG  missense    patient and father: AT; mother: AA
+CCAM14A PPI 10  52834358    C/G PRKG1   missense    patient and father: CG; mother: CC
+CCAM14B PPI 2   170038687   G/C LRP2    missense    patient and mother: CG; father: CC
+CCAM15B PPI 3   37053562    C/T MLH1    missense    patient and mother: CT; father: CC
+CCAM18B PPI 2   21225485    C/G APOB    missense    patient and mother: GC; father: GG
+CCAM18A PPI 2   170147367   C/T LRP2    missense    patient and father: GA; mother: GG
+CCAM20A PPI 2   21225485    C/G APOB    missense    patient and father: GC; mother: GG
+CCAM20B PPI 2   170177382   G/A LRP2    missense    patient and mother: CT; father: CC
+CCAM22A PPI 3   37089020    C/T MLH1    missense    patient and father: CT; mother: CC
+CCAM25B PPI 8   133984068   C/T TG  missense    patient and mother: CT; father: CC
+CCAM25A PPI 2   170038100   G/A LRP2    missense    patient and father: CT; mother: CC
+CCAM9A  PPI 8   48691637    G/A PRKDC   missense    patient and father: CT; mother: CC
+VL6A    PPI 2   170063095   C/T LRP2    missense    confirmed, paternal inherited
+VL10B   PPI 2   170059272   C/T LRP2    missense    confirmed, maternal inherited
+VL6B    PPI X   101911030   G/A GPRASP1 missense    confirmed, maternal inherited
+VL10A   PPI X   101909897   A/C GPRASP1 missense    confirmed, paternal: CC; maternal AA
+VL6A    PPI 1   183187527   A/T LAMC2   missense    confirmed, paternal inherited
+IA689A  PPI 1   183187527   A/T LAMC2   missense    confirmed, paternal inherited
+VL6A    PPI 1   236228288   C/A NID1    missense    confirmed, paternal: CC; maternal AA
+IA689A  PPI 1   236228288   C/A NID1    missense    confirmed, paternal: CC; maternal AA
+CCAM11B PPI 8   133885463   A/G TG  missense    A
+CCAM11A PPI 2   170177382   G/A LRP2    missense    C
+CCAM13B PPI 17  37070726    C/T LASP1   missense    C
+CCAM13B PPI 8   48691325    C/A PRKDC   missense    G
+CCAM13A PPI 10  54040670    C/T PRKG1   missense    C
+CCAM14A PPI 17  37070726    C/T LASP1   missense    C
+CCAM14B PPI 8   134128945   A/T TG  missense    A
+CCAM14B PPI 10  52834358    C/G PRKG1   missense    C
+CCAM14A PPI 2   170038687   G/C LRP2    missense    C
+CCAM15A PPI 3   37053562    C/T MLH1    missense    C
+CCAM18A PPI 2   21225485    C/G APOB    missense    G
+CCAM18B PPI 2   170147367   C/T LRP2    missense    G
+CCAM20B PPI 2   21225485    C/G APOB    missense    G
+CCAM20A PPI 2   170177382   G/A LRP2    missense    C
+CCAM22B PPI 3   37089020    C/T MLH1    missense    C
+CCAM25A PPI 8   133984068   C/T TG  missense    C
+CCAM25B PPI 2   170038100   G/A LRP2    missense    C
+CCAM9B  PPI 8   48691637    G/A PRKDC   missense    G
+VL6B    PPI 2   170063095   C/T LRP2    missense    C
+VL10A   PPI 2   170059272   C/T LRP2    missense    C
+VL6A    PPI X   101911030   G/A GPRASP1 missense    G
+VL10B   PPI X   101909897   A/C GPRASP1 missense    A
+VL6B    PPI 1   183187527   A/T LAMC2   missense    A
+IA689B  PPI 1   183187527   A/T LAMC2   missense    A
+VL6B    PPI 1   236228288   C/A NID1    missense    C
+IA689B  PPI 1   236228288   C/A NID1    missense    C
+HK40-19 familial    21  33040875    T/C SOD1    missense    
+HK40-21 familial    21  33040875    T/C SOD1    missense    
+HK40-204    familial    21  33040875    T/C SOD1    missense    
+HK40-310    familial    21  33040875    T/C SOD1    missense    
+HK40-331    familial    21  33040875    T/C SOD1    missense    
+HK40A-III-16    familial    21  33040875    T/C SOD1    missense    
+HK40B-III9  familial    21  33040875    T/C SOD1    missense    
+HK40C-index familial    21  33040875    T/C SOD1    missense    
+
