@@ -1,0 +1,12 @@
+
+# List file
+# \ls $PWD/Inputs/*/*/*/*gz -1 > 01_fastq_file_list.txt 
+
+# Merge every two line into one
+#paste -d "\t" - - < 01_fastq_file_list.txt > 02_sample_list.txt
+
+# Add sample name
+#awk -F'/' '{print $8"\t"$9"\t"$0}' 02_sample_list.txt > 03_input_list.txt
+
+# One step
+realpath Inputs/20180417/*/*/*gz  | paste -d "\t" - - | awk -F'/' '{print $7"\t"$8"\t"$0}'

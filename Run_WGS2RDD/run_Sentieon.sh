@@ -13,7 +13,7 @@ type_name="$2"
 SampleName="$3"
 fastq_1="$4"
 fastq_2="$5"
-JOBDIR="/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Outputs/${type_name}"
+JOBDIR="/work5/NRPB_user/u00yhl02/AI_SHARE/Run_WGS2RDD/Outputs/20180419/${type_name}"
 
 printf "#############################################################################\n"
 printf "###                  Work started:   $(date +%Y-%m-%d:%H:%M:%S)                  ###\n"
@@ -30,7 +30,7 @@ printf "########################################################################
 #fastq_folder="/home/u00cyc01/u00cyc01/test.chrMT/Reads"
 #fastq_1=${SampleName}.r1.fastq.gz
 #fastq_2=${SampleName}.r2.fastq.gz  #If using Illumina paired data
-sample="SM_"${SampleName} 
+sample="SM_"${SampleName}
 group="GP_"${SampleName}
 platform="ILLUMINA"
 
@@ -42,7 +42,7 @@ known_1000G_indels="/work5/NRPB_user/u00cyc01/Reference/ref_hg19/1000G_phase1.in
 
 # Determine whether Variant Quality Score Recalibration will be run
 # VQSR should only be run when there are sufficient variants called
-run_vqsr="no"
+run_vqsr="yes"
 # Update with the location of the resource files for VQSR
 vqsr_Mill="/work5/NRPB_user/u00cyc01/Reference/ref_hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf"
 vqsr_1000G_omni="/work5/NRPB_user/u00cyc01/Reference/ref_hg19/1000G_omni2.5.hg19.sites.vcf"
