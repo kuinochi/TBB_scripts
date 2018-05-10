@@ -46,7 +46,6 @@ for (my $i = $opt_s-1; $i < $opt_e; $i++ ){
     if ($running_job < 8){
         printf (STDOUT "Sample %s: %s, from line: %d\n", $i+1, $sample, $i+1 );
         execute("bsub -q 48G -J benchmark.$sample \"bash ./run_Sentieon.sh 24 $type $sample $read1 $read2\"");
-        #execute("bsub -q 48G -J benchmark.$sample \"bash ./run_genotype_vqsr.sh 24 $type $sample $read1 $read2\"");
     } else {
         printf (STDOUT "There are already %d running jobs.\nWait 600 seconds until next check.\nWaiting sample: %s\n", $running_job, $sample);
         sleep 600;

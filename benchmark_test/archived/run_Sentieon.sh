@@ -42,7 +42,7 @@ known_1000G_indels="/work5/NRPB_user/u00cyc01/Reference/ref_hg19/1000G_phase1.in
 
 # Determine whether Variant Quality Score Recalibration will be run
 # VQSR should only be run when there are sufficient variants called
-run_vqsr="yes"
+run_vqsr="no"
 # Update with the location of the resource files for VQSR
 vqsr_Mill="/work5/NRPB_user/u00cyc01/Reference/ref_hg19/Mills_and_1000G_gold_standard.indels.hg19.sites.vcf"
 vqsr_1000G_omni="/work5/NRPB_user/u00cyc01/Reference/ref_hg19/1000G_omni2.5.hg19.sites.vcf"
@@ -157,15 +157,13 @@ if [ "$run_vqsr" = "yes" ]; then
     annotate_text="$annotate_text --annotation $annotation"
   done
   #Run the VQSR
-  $tranches=" -tranche 100.0 -tranche 99.9 -tranche 99.0 -tranche 98.0 -tranche 97.0 -tranche 96.0 -tranche 95.0 -tranche 94.0 -tranche 93.0 -tranche 92.0 -tranche 91.0 -tranche 90.0 -tranche 85.0 -tranche 80.0 -tranche 75.0 -tranche 70.0 -tranche 65.0 -tranche 60.0 -tranche 55.0 -tranche 50.0 -tranche 45.0 -tranche 40.0 -tranche 35.0 -tranche 30.0 -tranche 25.0 -tranche 20.0 -tranche 15.0 -tranche 10.0"
-
-  $release_dir/bin/sentieon driver -r $fasta -t $nt --algo VarCal -v ${SampleName}.output-hc.vcf.gz $resource_text $annotate_text --var_type SNP --plot_file ${SampleName}.vqsr_SNP.hc.plot_file.txt --max_gaussians 8 --srand 47382911 --tranches_file ${SampleName}.vqsr_SNP.hc.tranches ${SampleName}.vqsr_SNP.hc.recal $tranches
+  $release_dir/bin/sentieon driver -r $fasta -t $nt --algo VarCal -v ${SampleName}.output-hc.vcf.gz $resource_text $annotate_text --var_type SNP --plot_file ${SampleName}.vqsr_SNP.hc.plot_file.txt --max_gaussians 8 --srand 47382911 --tranches_file ${SampleName}.vqsr_SNP.hc.tranches ${SampleName}.vqsr_SNP.hc.recal
   #apply the VQSR
   $release_dir/bin/sentieon driver -r $fasta -t $nt --algo ApplyVarCal -v ${SampleName}.output-hc.vcf.gz --var_type SNP --recal ${SampleName}.vqsr_SNP.hc.recal --tranches_file ${SampleName}.vqsr_SNP.hc.tranches --sensitivity 99.5 ${SampleName}.vqsr_SNP.hc.recaled.vcf.gz
   #plot the report
   $release_dir/bin/sentieon plot vqsr -o ${SampleName}.vqsr_SNP.VQSR.pdf ${SampleName}.vqsr_SNP.hc.plot_file.txt
 
-  #for indels after SNPs
+    #for indels after SNPs
   #create the resource argument
   resource_text="--resource $vqsr_1000G_phase1_indel --resource_param 1000G,known=false,training=true,truth=false,prior=10.0 "
   resource_text="$resource_text --resource $vqsr_Mill --resource_param Mills,known=false,training=true,truth=true,prior=12.0 "
@@ -177,9 +175,7 @@ if [ "$run_vqsr" = "yes" ]; then
     annotate_text="$annotate_text --annotation $annotation"
   done
   #Run the VQSR
-  $tranches=" -tranche 100.0 -tranche 99.9 -tranche 99.0 -tranche 98.0 -tranche 97.0 -tranche 96.0 -tranche 95.0 -tranche 94.0 -tranche 93.0 -tranche 92.0 -tranche 91.0 -tranche 90.0 -tranche 85.0 -tranche 80.0 -tranche 75.0 -tranche 70.0 -tranche 65.0 -tranche 60.0 -tranche 55.0 -tranche 50.0 -tranche 45.0 -tranche 40.0 -tranche 35.0 -tranche 30.0 -tranche 25.0 -tranche 20.0 -tranche 15.0 -tranche 10.0"
-
-  $release_dir/bin/sentieon driver -r $fasta -t $nt --algo VarCal -v ${SampleName}.vqsr_SNP.hc.recaled.vcf.gz $resource_text $annotate_text --var_type INDEL --plot_file ${SampleName}.vqsr_SNP_INDEL.hc.plot_file.txt --max_gaussians 4 --srand 47382911 --tranches_file ${SampleName}.vqsr_SNP_INDEL.hc.tranches ${SampleName}.vqsr_SNP_INDEL.hc.recal $tranches
+  $release_dir/bin/sentieon driver -r $fasta -t $nt --algo VarCal -v ${SampleName}.vqsr_SNP.hc.recaled.vcf.gz $resource_text $annotate_text --var_type INDEL --plot_file ${SampleName}.vqsr_SNP_INDEL.hc.plot_file.txt --max_gaussians 4 --srand 47382911 --tranches_file ${SampleName}.vqsr_SNP_INDEL.hc.tranches ${SampleName}.vqsr_SNP_INDEL.hc.recal
   #apply the VQSR
   $release_dir/bin/sentieon driver -r $fasta -t $nt --algo ApplyVarCal -v ${SampleName}.vqsr_SNP.hc.recaled.vcf.gz --var_type INDEL --recal ${SampleName}.vqsr_SNP_INDEL.hc.recal --tranches_file ${SampleName}.vqsr_SNP_INDEL.hc.tranches --sensitivity 99.5 ${SampleName}.vqsr_SNP_INDEL.hc.recaled.vcf.gz
   #plot the report

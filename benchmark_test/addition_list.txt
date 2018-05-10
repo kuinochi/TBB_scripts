@@ -1,0 +1,6 @@
+CLOACA	VL19A	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL19A/WES/VL19A_1.fastq.gz	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL19A/WES/VL19A_2.fastq.gz
+CLOACA	VL19B	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL19B/WES/VL19B_1.fastq.gz	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL19B/WES/VL19B_2.fastq.gz
+CLOACA	VL19C	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL19C/WES/VL19C_1.fastq.gz	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL19C/WES/VL19C_2.fastq.gz
+CLOACA	VL17A	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL17A/WES/VL17A_1.fastq.gz	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL17A/WES/VL17A_2.fastq.gz
+CLOACA	VL17B	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL17B/WES/VL17B_1.fastq.gz	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL17B/WES/VL17B_2.fastq.gz
+CLOACA	VL17C	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL17C/WES/VL17C_1.fastq.gz	/work5/NRPB_user/u00yhl02/AI_SHARE/Benchmark_test/Inputs/CLOACA/VL17C/WES/VL17C_2.fastq.gz
