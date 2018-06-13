@@ -124,6 +124,9 @@ def main():
     neg_v_list = []
     for sample_n in list(sorted(neg_dict.keys())):
         neg_v_list.append(list(neg_dict[sample_n].keys()))
+    
+    # https://stackoverflow.com/questions/3852780/python-intersection-of-multiple-lists
+    # set.intersection(*map(set,d))
 
     if not neg_dict:
         share_v_pos = list(set.intersection(*map(set, pos_v_list)))
