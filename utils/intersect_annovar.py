@@ -130,7 +130,7 @@ def main():
 
     if not neg_dict:
         share_v_pos = list(set.intersection(*map(set, pos_v_list)))
-        union_v_neg = []
+        union_v_neg = ['header']
     else:
         share_v_pos = list(set.intersection(*map(set, pos_v_list)))
         union_v_neg = list(set.union(*map(set, neg_v_list)))
@@ -144,6 +144,7 @@ def main():
             # print(type(neg_dict[sample_n]['header']))
             out_writer.writerow(pos_dict[sample_p]['header'])
             for key in natural_sort(uniq_v_in_pos):
+                print(key)
                 out_writer.writerow(pos_dict[sample_p][key])
 
 
